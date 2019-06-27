@@ -1,10 +1,13 @@
 {
-    "autoload": {
-        "classmap": [
-            "test/"
-        ]
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7"
+    "name": "martin/test",
+    "description": "*",
+    "authors": [
+        {
+            "name": "martin",
+            "email": "martinastruc@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/phpunit-bridge": "^4.3"
     }
 }
